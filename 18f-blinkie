@@ -1,0 +1,22 @@
+( { EESchema Netlist Version 1.1  Fri 06 Nov 2020 08:11:31 AM EST
+Eeschema 5.1.8-db9833491~87~ubuntu20.04.1}
+ ( 5FA55327 Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Left J2 Conn_01x07_Female
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+ )
+ ( 5FA568B9 Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical_SMD_Pin1Left J1 Conn_01x07_Female
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 ? )
+  ( 4 ? )
+  ( 5 ? )
+  ( 6 ? )
+  ( 7 ? )
+ )
+)
+*
