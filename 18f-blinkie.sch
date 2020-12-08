@@ -5617,72 +5617,6 @@ Connection ~ 9950 4300
 Connection ~ 9950 5100
 Wire Wire Line
 	9950 5100 9950 5200
-$Comp
-L Device:R R1
-U 1 1 5FC02FF0
-P 9800 1600
-F 0 "R1" H 9870 1646 50  0000 L CNN
-F 1 "220R" H 9870 1555 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 1600 50  0001 C CNN
-F 3 "~" H 9800 1600 50  0001 C CNN
-	1    9800 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R2
-U 1 1 5FC0475F
-P 9800 2650
-F 0 "R2" H 9870 2696 50  0000 L CNN
-F 1 "220R" H 9870 2605 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 2650 50  0001 C CNN
-F 3 "~" H 9800 2650 50  0001 C CNN
-	1    9800 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R3
-U 1 1 5FC04D32
-P 9800 3450
-F 0 "R3" H 9870 3496 50  0000 L CNN
-F 1 "220R" H 9870 3405 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 3450 50  0001 C CNN
-F 3 "~" H 9800 3450 50  0001 C CNN
-	1    9800 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R4
-U 1 1 5FC052AB
-P 9800 4250
-F 0 "R4" H 9870 4296 50  0000 L CNN
-F 1 "220R" H 9870 4205 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 4250 50  0001 C CNN
-F 3 "~" H 9800 4250 50  0001 C CNN
-	1    9800 4250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R5
-U 1 1 5FC058B4
-P 9800 5050
-F 0 "R5" H 9870 5096 50  0000 L CNN
-F 1 "220R" H 9870 5005 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 5050 50  0001 C CNN
-F 3 "~" H 9800 5050 50  0001 C CNN
-	1    9800 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R6
-U 1 1 5FC05EA1
-P 9800 5800
-F 0 "R6" H 9870 5846 50  0000 L CNN
-F 1 "220R" H 9870 5755 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 9730 5800 50  0001 C CNN
-F 3 "~" H 9800 5800 50  0001 C CNN
-	1    9800 5800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9800 1450 9700 1450
 Wire Wire Line
@@ -5729,4 +5663,16 @@ Wire Wire Line
 Wire Wire Line
 	9950 5950 9950 5850
 Connection ~ 9950 5850
+Wire Wire Line
+	9800 1450 9800 1750
+Wire Wire Line
+	9800 2500 9800 2800
+Wire Wire Line
+	9800 3300 9800 3600
+Wire Wire Line
+	9800 4100 9800 4400
+Wire Wire Line
+	9800 4900 9800 5200
+Wire Wire Line
+	9800 5650 9800 5950
 $EndSCHEMATC
