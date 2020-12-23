@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {{ page.title }}
+    </title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="{{ 'assets/uswds-2.10.0/js/uswds-init.min.js' | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ 'assets/uswds-2.10.0/css/uswds.min.css' | prepend: site.baseurl }}" />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="grid-row">
+        <div class="grid-col-2" style="margin-top:2em;">
+          <nav aria-label="Secondary navigation">
+            <ul class="usa-sidenav">
+              {% for e in site.data.nav.side %}
+                <li>
+                  {% if e.url contains "http" %}
+                    <a href="{{ e.url }}">{{ e.text }}</a>
+                  {% else %}
+                    <a href="{{ e.url | prepend: page.url }}">{{ e.text }} </a>
+                  {% endif %}
+                </li>
+              {% endfor %}
+            </ul> 
+          </nav>  
+        </div>
+        <div class="grid-col-8 grid-offset-1">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+
+  </body>
+</html>

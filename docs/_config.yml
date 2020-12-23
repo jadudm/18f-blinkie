@@ -1,0 +1,13 @@
+title: The 18F Blinkie
+email: matt@jadud.com
+description: >- 
+  The amazing documentation for the 18F blinkie.
+baseurl: "" 
+url: "" 
+twitter_username: jadudm
+github_username:  jadudm
+
+# Build settings
+theme: minima
+# plugins:
+#   - jekyll-feed

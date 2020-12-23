@@ -1,0 +1,9 @@
+side:
+  - text: These Docs
+    url: "#"
+  - text: 18F
+    url: https://18f.gsa.gov
+  - text: Source
+    url: https://github.com/jadudm/18f-blinkie
+  - text: License
+    url: https://creativecommons.org/share-your-work/public-domain/cc0/
