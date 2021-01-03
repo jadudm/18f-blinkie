@@ -34,7 +34,7 @@ If you click on the dropdown in the "show frame of animation" block, you can cho
 
 ### Download
 
-Now, click download. This will take a moment, and it will offer up a .UF2 file. While therer is a great deal of awesome packed into that file, it is enough to say right now that this file contains the code that runs on the QtPy.
+Now, click download. This will take a moment, and it will offer up a .UF2 file. While there is a great deal of awesome packed into that file, it is enough to say right now that this file contains the code that runs on the QtPy.
 
 Find the file in your Downloads folder.
 
