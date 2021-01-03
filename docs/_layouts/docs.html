@@ -7,8 +7,8 @@
 
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <script src="{{ 'assets/uswds-2.10.0/js/uswds-init.min.js' | prepend: site.baseurl }}"></script>
-    <link rel="stylesheet" href="{{ 'assets/uswds-2.10.0/css/uswds.min.css' | prepend: site.baseurl }}" />
+    <script src="{{ '/assets/uswds-2.10.0/js/uswds-init.min.js' | prepend: site.baseurl }}"></script>
+    <link rel="stylesheet" href="{{ '/assets/uswds-2.10.0/css/uswds.min.css' | prepend: site.baseurl }}" />
   </head>
   <body>
     <div class="grid-container">
@@ -17,9 +17,13 @@
           <nav aria-label="Secondary navigation">
             <ul class="usa-sidenav">
               {% for e in site.data.nav.side %}
+                {% assign is_local = e.url | startswith: "/" %}
+                <!-- {%- if checklocal[0] == blank -%}blank{%- else -%}notblank{%- endif -%} -->
                 <li>
                   {% if e.url contains "http" %}
                     <a href="{{ e.url }}">{{ e.text }}</a>
+                  {% elsif is_local %}
+                    <a href="{{ e.url | prepend: site.baseurl }}">{{ e.text }}</a>
                   {% else %}
                     <a href="{{ e.url | prepend: page.url }}">{{ e.text }} </a>
                   {% endif %}

@@ -34,7 +34,7 @@ If you click on the dropdown in the "show frame of animation" block, you can cho
 
 ### Download
 
-Now, click download. This will take a moment, and it will offer up a .UF2 file. The details of this are kinda awesome (if you're me), and possibly still kinda awesome if you're you. I will refrain from explaining all the awesome, however. For now, it is enough to say that this file is the code that runs on the QtPy.
+Now, click download. This will take a moment, and it will offer up a .UF2 file. While therer is a great deal of awesome packed into that file, it is enough to say right now that this file contains the code that runs on the QtPy.
 
 Find the file in your Downloads folder.
 
@@ -42,23 +42,15 @@ Find the file in your Downloads folder.
 
 On the QtPy, there's a tiny reset button. Press it once.
 
-*OH NOES! YOU BROKE IT!*
+You have now moved your QtPy into "program mode." Two things will happen. First, a solid, green light should be showing on the QtPy. Second, a new drive should have appeared on your computer; it will be called **QTPY_BOOT**.
 
-Ha. See what I did there? That was funny. 
-
-You have now moved your QtPy into "program mode." A solid, green light should be showing on the QtPy. Next, open up your Finder (or Explorer, or file-clickie-poker, or whatever you call it), and go to your Downloads folder. You should find the .uf2 file you just downloaded. And, in your Finder, a new drive should have shown up. It will be called **QTPY_BOOT**. 
-
-Drag the .uf2 file onto the drive **QTPY_BOOT**.
-
-This will reprogram the 18F blinkie with the code you wrote and downloaded.
+Open up your Finder and go to your Downloads folder. You should find the .uf2 file you just downloaded. Drag the .uf2 file onto the drive **QTPY_BOOT**.
 
 ### Sit Back and Watch Das Blinkenlights
 
 Now that you dragged the code onto the blinkie, it will reboot, and run your code!
 
 YOU HAVE JUST PROGRAMMED THE INTERNET OF THINGS!
-
-(I mean, it's basically true. All humor aside, this is your first step into embedded systems development. Unless you're Amy, in which case, this is, like, old hat. Why are things "old hat?" Are old hats *bad*? I digress.)
 
 `:bunny-star-power:`
 
@@ -73,7 +65,7 @@ To program new patterns, you will repeat the process described above:
 
 Your computer may complain that you've "unplugged without unmounting" the 18F blinkie. This will happen *every time* and it is *supremely annoying*. It is how the process works, however, and it *cannot hurt the blinkie or your computer*.
 
-In short, it happens every time, it's OK, and it is annoying. Meh.
+In short, it happens every time, it's OK, it is annoying, and there's nothing to be done about it. Meh.
 
 ## In Conclusion
 
@@ -94,4 +86,5 @@ Of course, you can always ask the hardware designer questions, too.
 
 #### Revision History
 
+* [jadudm] Small cleanups, simplification. 20210103
 * [jadudm] First version. 20201223

@@ -2,12 +2,19 @@ title: The 18F Blinkie
 email: matt@jadud.com
 description: >- 
   The amazing documentation for the 18F blinkie.
-baseurl: "" 
 url: "" 
 twitter_username: jadudm
 github_username:  jadudm
+permalink: /:title/
+
+exclude:
+  - Makefile
+  - docker-compose.yml
+  - Gemfile
+  - Gemfile.lock
+  
 
 # Build settings
-theme: minima
+#theme: minima
 # plugins:
 #   - jekyll-feed

@@ -1,6 +1,8 @@
 side:
-  - text: These Docs
-    url: "#"
+  - text: Home
+    url: "/"
+  - text: Additional Notes
+    url: "/notes/"
   - text: 18F
     url: https://18f.gsa.gov
   - text: Source
